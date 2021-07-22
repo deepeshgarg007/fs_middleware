@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fs_middleware *.css
+recursive-include fs_middleware *.csv
+recursive-include fs_middleware *.html
+recursive-include fs_middleware *.ico
+recursive-include fs_middleware *.js
+recursive-include fs_middleware *.json
+recursive-include fs_middleware *.md
+recursive-include fs_middleware *.png
+recursive-include fs_middleware *.py
+recursive-include fs_middleware *.svg
+recursive-include fs_middleware *.txt
+recursive-exclude fs_middleware *.pyc
