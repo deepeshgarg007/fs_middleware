@@ -145,6 +145,12 @@ app_license = "MIT"
 # User Data Protection
 # --------------------
 
+doc_events = {
+	"Item": {
+		"after_insert" : "fs_middleware.financial_service_middleware.doctype.api_job.api_job.enqueue_item_updates"
+	}
+}
+
 user_data_fields = [
 	{
 		"doctype": "{doctype_1}",
